@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffa86b;
+  color: #000000;
+  padding: 10px;
+  display: inline;
+}
+
+h1, #description {
+  text-align: center;
+}
+
+fieldset {
+  width: 90%;
+  border: solid 1px rgba(0,0,0,0.4);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 5px;
+}
+
+input {
+  display: block;
+}
+
+input[name="coke-pepsi"] {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+input[type="textarea"]{
+  display: block;
+  margin-bottom: 20px;
+}
+
+#submit {
+  text-align: center;
+  margin-left: 45%;
+}
